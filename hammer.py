@@ -75,21 +75,14 @@ def dos2():
 
 
 def usage():
-	print("          ──────█────────█────── ")
-        print("          ─────█─▄▀█──█▀▄─█───── ")
-        print("          ────▐▌──────────▐▌──── ")
-        print("          ────█▌▀▄──▄▄──▄▀▐█──── ")
-        print("          ───▐██──▀▀──▀▀──██▌─── ")
-        print("          ──▄████▄──▐▌──▄████▄── ")
-        print("Hammer Dos Script v.1 http://xayrouxhack.blogfa.com ")
-        print("It is the end user's responsibility to obey all applicable laws. ")
-	print("It is just for server testing script. Your ip is visible. \n ")
-        print(" ")
-	print("usage : python3 hammer.py [-s] [-p] [-t] ")
-	print("[h]: help ")
-        print("[s]: server ip ")
-        print("[p]: port default 80 ")
-        print("[t]: turbo default 135 ")
+	print (''' \033[92m	Hammer Dos Script v.1 http://xayrouxhack.blogfa.com/
+	It is the end user's responsibility to obey all applicable laws.
+	It is just for server testing script. Your ip is visible. \n
+	usage : python3 hammer.py [-s] [-p] [-t]
+	-h : help
+	-s : server ip
+	-p : port default 80
+	-t : turbo default 135 \033[0m''')
 	sys.exit()
 
 
